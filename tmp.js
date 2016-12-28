@@ -12,7 +12,7 @@ function addPromise(a,b){
 
 
 addPromise(6,false).then(function(num){
-	console.log(" ans is " + num);
+	console.log("  ans is " + num);
 }, function(val){
 	console.log(val);
 });
