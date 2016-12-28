@@ -1,0 +1,10 @@
+destructuring element in es6
+
+indexroute is child element in route tag
+this.props.children line in main.jsx 
+
+the weather api key - 43a80028cf7fc1b34a515f437a0788b8
+
+link - http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=43a80028cf7fc1b34a515f437a0788b8
+
+Promises in es6 -- awesome 
