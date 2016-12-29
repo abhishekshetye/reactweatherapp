@@ -3,13 +3,19 @@ var Nav = require('Nav');
 
 var Main = React.createClass({
 
+	handleSearchs: function(a){
+		alert(a);
+
+	},
+
 	render: function(){
 
 		return (
 			<div>
-				<Nav></Nav>
-				<h2> Main </h2>
-				{this.props.children}
+				<Nav onSearch={this.handleSearchs}></Nav>
+				<div className="columns medium-6 large-4 small-centered">
+					{this.props.children}
+				</div>
 			</div>
 			);
 
