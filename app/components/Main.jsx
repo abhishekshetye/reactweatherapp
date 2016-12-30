@@ -12,7 +12,7 @@ var Main = React.createClass({
 
 		return (
 			<div>
-				<Nav onSearch={this.handleSearchs}></Nav>
+				<Nav></Nav>
 				<div className="columns medium-6 large-4 small-centered">
 					{this.props.children}
 				</div>

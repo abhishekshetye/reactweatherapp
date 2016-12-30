@@ -14,9 +14,10 @@ var Nav = React.createClass({
 	onSearch: function(e){
 		e.preventDefault();
 		var a = this.refs.weather.value;
-
+		var encoded = encodeURIComponent(a);
 		if(a.length > 0){
-			this.props.onSearch(a);
+			this.refs.weather.value = '';
+			window.location.hash = '#/?location=' + encoded;
 		}
 	},
 
